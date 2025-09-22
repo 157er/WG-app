@@ -1,0 +1,22 @@
+{
+  "app": {
+    "title": "WG-Split",
+    "tagline": "Shared expenses, made kind"
+  },
+  "actions": {
+    "addExpense": "Add expense",
+    "settleUp": "Settle up",
+    "invite": "Invite member",
+    "downloadPdf": "Download PDF"
+  },
+  "login": {
+    "headline": "Welcome to WG-Split",
+    "description": "Enter your email and we will send a magic login link.",
+    "cta": "Send magic link",
+    "success": "Link sent! Please check your inbox."
+  },
+  "empty": {
+    "expenses": "Create your first expense",
+    "settlements": "All settled – enjoy the harmony!"
+  }
+}

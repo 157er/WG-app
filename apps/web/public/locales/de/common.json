@@ -1,0 +1,22 @@
+{
+  "app": {
+    "title": "WG-Split",
+    "tagline": "Gemeinsame Ausgaben ohne Stress"
+  },
+  "actions": {
+    "addExpense": "Ausgabe erfassen",
+    "settleUp": "Ausgleichen",
+    "invite": "Mitglied einladen",
+    "downloadPdf": "PDF herunterladen"
+  },
+  "login": {
+    "headline": "Willkommen bei WG-Split",
+    "description": "Gib deine E-Mail ein und wir schicken dir einen magischen Login-Link.",
+    "cta": "Magischen Link senden",
+    "success": "Link verschickt! Schau bitte in dein Postfach."
+  },
+  "empty": {
+    "expenses": "Leg deine erste Ausgabe an",
+    "settlements": "Alles ausgeglichen – entspann dich!"
+  }
+}

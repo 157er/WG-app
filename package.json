@@ -1,0 +1,29 @@
+{
+  "name": "wg-split-monorepo",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm --filter ./apps/web dev",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "format": "pnpm -r run format"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.12",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.3.3",
+    "vitest": "^0.34.6"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "WG-Split API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Request Magic Link",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/auth/magic-link/request",
+          "host": ["{{baseUrl}}"],
+          "path": ["auth", "magic-link", "request"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"alice@example.com\"\n}"
+        }
+      }
+    }
+  ]
+}
