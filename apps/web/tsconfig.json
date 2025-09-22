@@ -1,0 +1,14 @@
+{
+  "extends": "../../packages/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "types": ["vite/client", "node"],
+    "paths": {
+      "@wg-split/ui": ["../../packages/ui/src"],
+      "@wg-split/config": ["../../packages/config/src"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}

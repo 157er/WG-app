@@ -1,0 +1,12 @@
+{
+  "extends": "../../packages/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
+  },
+  "include": ["src", "tests", "prisma"],
+  "exclude": ["dist", "node_modules"]
+}

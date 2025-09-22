@@ -1,0 +1,17 @@
+node_modules
+.pnpm-store
+.env
+.env.*
+.vscode
+.idea
+dist
+build
+coverage
+playwright-report
+prisma/migrations
+.DS_Store
+*.log
+pnpm-lock.yaml
+apps/api/prisma/dev.db
+uploads
+artifacts
